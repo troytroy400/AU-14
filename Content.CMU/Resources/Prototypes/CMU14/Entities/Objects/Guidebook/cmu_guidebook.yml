@@ -5,6 +5,7 @@
   priority: 0
   text: "/ServerInfo/Guidebook/CMU14/CMUGuidebook.xml"
   children:
+  - CMUGuideRoleRifleman
   - AU14Comms
   - CMUGuideMortar
   - CMUGuideExplosives

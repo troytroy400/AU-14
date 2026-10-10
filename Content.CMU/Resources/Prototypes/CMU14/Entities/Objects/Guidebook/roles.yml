@@ -1,0 +1,6 @@
+- type: guideEntry
+  parent: RMC
+  id: CMUGuideRoleRifleman
+  name: cmu-guide-entry-role-rifleman
+  priority: 1
+  text: "/ServerInfo/Guidebook/CMU14/Roles/Rifleman.xml"

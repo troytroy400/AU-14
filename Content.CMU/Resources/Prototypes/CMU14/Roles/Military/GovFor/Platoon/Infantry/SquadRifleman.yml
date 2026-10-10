@@ -10,6 +10,7 @@
   dummyStartingGear: AU14GearGOVFORRiflemanDummy
   playTimeTracker: AU14JobGOVFORSquadRifleman
   displayWeight: -1
+  guides: [ CMUGuideRoleRifleman ]
   accessGroups:
   - AU14GovforSquad
   hasIcon: false

@@ -1,0 +1,103 @@
+<Document>
+# Rifleman
+
+The backbone of the platoon. Riflemen are the most common role on both GOVFOR and OPFOR: you follow orders, pull security, carry the fight to the enemy and hold what your platoon takes. You don't need special training for anything in this guide.
+
+Every platoon plays the rifleman the same way. Only the names change: the vendors, the rifle, your rank and your uniform depend on which unit your side is fielding that round. The examples below use the US Colonial Marines.
+
+## Waking Up
+- On most maps you start aboard your side's ship and fly down by dropship. On a few maps you start already planetside.
+- You wake up hungry and thirsty. Grab something to eat and drink before you deploy.
+- Snack, drink and cigarette vendors cost money. Your ID card's bank account starts with a little cash, and vendors take cash first, then charge the rest to your ID.
+- You spawn with only your ID card and headset. Everything else comes from your platoon's vendors.
+
+## Gearing Up
+Your gear is free. Each vendor lets you take a limited amount, so choose carefully. Items marked as [color=green]recommended[/color] are what a rifleman should grab first.
+
+### Apparel Vendor
+<Box>
+  <GuideEntityEmbed Entity="AU14USCMclothingequipmentvendor" Caption="Apparel vendor"/>
+</Box>
+Take one item from each section: fatigues and a webbing, boots, gloves, a helmet, armor, a backpack, a belt and a pouch. A magazine belt and a magazine pouch keep your reloads close at hand.
+
+### Weapons Rack
+<Box>
+  <GuideEntityEmbed Entity="AU14USCMWeaponsVendor" Caption="Weapons rack"/>
+</Box>
+Pick [bold]one primary weapon kit[/bold], [bold]one sidearm[/bold] and [bold]one attachment[/bold]. A kit is a case with the gun and a load of magazines. Empty kits left on the ground despawn after a minute, so you don't need to carry the case around.
+<Box>
+  <GuideEntityEmbed Entity="AU14KitWeaponM41AMK1" Caption="Rifle kit"/>
+  <GuideEntityEmbed Entity="RMCWeaponRifleM54CMK1Unloaded" Caption="M41A pulse rifle MK1"/>
+</Box>
+The rack also has spare magazines. Load your gun before you leave.
+
+### Equipment Vendor
+<Box>
+  <GuideEntityEmbed Entity="AU14USCMequipmentvendor" Caption="Equipment vendor"/>
+</Box>
+The equipment vendor's motto says it all: prioritize medical supplies, a ration pack, an e-tool and sandbags.
+<Box>
+  <GuideEntityEmbed Entity="AU14PouchIFAKFill" Caption="IFAK"/>
+  <GuideEntityEmbed Entity="CMMRE" Caption="MRE"/>
+  <GuideEntityEmbed Entity="CMEntrenchingTool" Caption="Entrenching tool"/>
+  <GuideEntityEmbed Entity="CMSandbagEmpty50" Caption="Empty sandbags"/>
+</Box>
+- An [bold]IFAK[/bold] (infantry first aid kit) is the single most important thing you carry. See [textlink="Infantry First Aid" link="CMUGuideMedicalInfantry"].
+- A [bold]gas mask[/bold] and spare [bold]filters[/bold], or a field oxygen tank, keep out tear gas, smoke and other gases.
+- [bold]Hearing protection[/bold] saves your ears from gunfire and explosions. See [textlink="Hearing Loss" link="CMUGuideHearingLoss"].
+- Binoculars, flares, a bayonet and zipties are all useful extras.
+
+Requisitions vendors are locked to requisitions staff. If your squad needs something special, ask your squad leader.
+
+## Your Rifle
+- [bold]Your rifle has no IFF.[/bold] Every round you fire can hit a friendly. Never shoot through your own lines, and check what's behind your target.
+- Carry a mix of standard and armor-piercing (AP) magazines. AP punches through armor, both the enemy's and your friends'.
+- An [bold]ammo box[/bold] of the right caliber refills empty magazines, so don't throw your empties away.
+- Don't fire your weapon aboard the ship or anywhere you haven't been told to.
+
+## Your Squad
+- You are assigned to a squad. GOVFOR fields Alpha, Bravo and Charlie; OPFOR fields Sierra, Tango and Uniform.
+- Each squad splits into [bold]fireteams[/bold]. You're placed in one automatically when you join. Stay with your fireteam.
+- Your chain of command is your [bold]Fireteam Leader[/bold], then your [bold]Squad Leader[/bold], then the platoon's officers up to the [bold]Commanding Officer[/bold].
+- If a squad or fireteam loses its leader for long enough, its highest-ranking member is promoted to take over. That might be you.
+- Your headset can track your squad leader, fireteam leader, battle buddy and landing zone. Use it to find your way back to your squad.
+
+## Radio
+<Box>
+  <GuideEntityEmbed Entity="AU14HeadsetGovforMarine" Caption="Headset"/>
+</Box>
+- Type [bold]:h[/bold] before a message to talk on your squad's net.
+- On the radio, a callsign replaces your name.
+- Combat radio needs a nearby [bold]anchor[/bold], such as your Fireteam Leader's backpack radio, a command post mast or a vehicle radio. Stray too far from one and your headset goes quiet, which is one more reason to stick with your fireteam.
+- Keep the net clear. Report what you see, briefly and accurately.
+
+See the [textlink="Communications Guide" link="AU14Comms"] for the full picture.
+
+## Winning the Round
+Both sides race to complete objectives: killing, capturing, holding zones, destroying targets and fetching items. Completed objectives build up points, and once your side has enough, the [bold]Final Objective[/bold] unlocks. Complete it to win.
+
+Picking up [bold]intel[/bold] (documents, disks and devices found around the map) earns your side the points it spends on more intel and upgrades. Grab anything that looks like intel and hand it in. See [textlink="Objectives and Intel" link="CMUGuideIntelObjectives"].
+
+## Digging In
+- Use your entrenching tool to fill sandbags, then stack them into barricades.
+- Anyone can vault over a barricade unless it's wired with barbed wire.
+- Riflemen can build basic barricades from metal. Heavier fortifications like concrete barricades need more construction training, which your squad leader and combat technicians have.
+
+See [textlink="Fortifications" link="CMUGuideEngFortify"].
+
+## Staying Alive
+- Keep your IFAK stocked. Stop the bleeding first, and use a tourniquet on a limb that won't stop.
+- Call for a corpsman on the radio if you or a squadmate are badly hurt.
+- Don't wander off alone. A rifleman on their own is an easy kill; a fireteam is not.
+
+## Useful Controls
+- You can set a key to [bold]open worn storage[/bold] (belts, backpacks and pouches) by hovering over the slot, under Controls > CMU. There's also an option there so clicking worn storage with an empty hand opens it instead of taking it off.
+
+## Where to Next
+- [textlink="Infantry First Aid" link="CMUGuideMedicalInfantry"]
+- [textlink="Communications Guide" link="AU14Comms"]
+- [textlink="Objectives and Intel" link="CMUGuideIntelObjectives"]
+- [textlink="Rules of Engagement" link="AU14SOPRulesofEngagement"]
+- [textlink="Explosives" link="CMUGuideExplosives"]
+- [textlink="Fortifications" link="CMUGuideEngFortify"]
+</Document>
